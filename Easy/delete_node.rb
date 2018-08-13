@@ -1,5 +1,7 @@
 # Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 #
+# Link- https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/
+#
 # Given linked list -- head = [4,5,1,9], which looks like following:
 #
 #    4 -> 5 -> 1 -> 9
