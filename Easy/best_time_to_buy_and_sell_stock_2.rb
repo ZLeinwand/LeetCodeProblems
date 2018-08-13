@@ -23,9 +23,10 @@ def max_profit(prices)
       elsif price > prev_price
         current_high = price
       end
+      output += current_high - current_low if idx == prices.length - 1
     end
 
-    output + current_high - current_low
+    output
 end
 
 # tests
