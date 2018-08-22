@@ -33,7 +33,7 @@ def intersect(nums1, nums2)
 
     nums2.each do |num|
         output << num if num_hash[num] > 0
-        num_hash[num] -= num
+        num_hash[num] -= 1
     end
 
     output
