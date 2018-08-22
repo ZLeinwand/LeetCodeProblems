@@ -21,7 +21,7 @@ def single_number(nums)
     hash = Hash.new
 
     nums.each do |num|
-        if hash[num] == nil
+        if hash[num].nil?
             hash[num] = false
         else
             hash[num] = true
